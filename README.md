@@ -15,5 +15,5 @@ python -m pip install -U pygame --user
 To run the game you just need to use this syntax:
 
 ```
-python3 game.py
+python game.py
 ```
