@@ -22,10 +22,10 @@ surface = pygame.display.set_mode((SCREEN_X, SCREEN_Y))
 background = pygame.image.load(BG_FNAME)
 
 # texts for aesthetics
-text_start = font.render('Press SPACE to start', True, (0, 0, 0), None)
-text_restart = font.render(' press "R" to restart', True, (0, 0, 0), None)
-text_game_over = font.render('Game Over', True, (0, 0, 0), None)
-text_game_win = font.render('Winner winner chicken dinner', True, (0, 0, 0), None)
+text_start = font.render('Press SPACE to start', True, (59, 212, 137), None)
+text_restart = font.render(' press "R" to restart', True, (59, 212, 137), None)
+text_game_over = font.render('Game Over', True, (59, 212, 137), None)
+text_game_win = font.render('Winner winner chicken dinner', True, (59, 212, 137), None)
 
 text_startRect = text_start.get_rect()
 text_restartRect = text_restart.get_rect()
