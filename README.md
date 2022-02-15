@@ -11,7 +11,8 @@ To run the game you will need to install pygame:
 python -m pip install -U pygame --user
 ```
 
-### To run the game use this syntax:
+## Running the game
+To run the game you just need to use this syntax:
 
 ```
 python3 game.py
