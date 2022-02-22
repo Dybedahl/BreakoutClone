@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import pygame
+import pygame, sys
 import math
 from player import Player
 from ball import Ball
@@ -92,7 +92,7 @@ def game():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 close_game = True
-                exit()
+                sys.exit()
         
         # background
         clock.tick(60)
